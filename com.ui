@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1007</width>
+    <height>728</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Compiler</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:#ecdfec	;
+border-radius:12px;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_add_text">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>540</y>
+      <width>281</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt \&quot;MV Boli\&quot;;
+background:purple;
+color:white;
+border-radius:12px;</string>
+    </property>
+    <property name="text">
+     <string>Add Text File</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_scan">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>560</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt \&quot;MV Boli\&quot;;
+background:purple;
+color:white;
+border-radius:12px;</string>
+    </property>
+    <property name="text">
+     <string>Scan</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_parse">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>560</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt \&quot;MV Boli\&quot;;
+background:purple;
+color:white;
+border-radius:12px;</string>
+    </property>
+    <property name="text">
+     <string>Parse</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_inp">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>60</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25pt \&quot;MV Boli\&quot;;
+color:black;
+</string>
+    </property>
+    <property name="text">
+     <string>Input Code</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_out">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>60</y>
+      <width>311</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 24pt \&quot;MV Boli\&quot;;
+color:black;
+</string>
+    </property>
+    <property name="text">
+     <string>Output Tokens</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txt_inp">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>120</y>
+      <width>471</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:white;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txt_out">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>120</y>
+      <width>381</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:white;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1007</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
